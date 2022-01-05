@@ -10,8 +10,6 @@ const AllNews = () => {
         .then(data => setNews(data))
     }, [])
 
-    console.log(news)
-
 
     return (
         <div className="container">
