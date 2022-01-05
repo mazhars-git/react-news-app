@@ -2,13 +2,14 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignLeft, faCoffee, faList, faListAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLine } from '@fortawesome/free-brands-svg-icons';
+import Pic from '../../images/profile.jpg';
 
 const Sidebar = () => {
     return (
         <section className="sidebar">
             <h4>Sidebar</h4>
             <div className="profile d-flex">
-                <div><img src="" alt="" /></div>
+                <div><img style={{width: '30px', borderRadius: '50%'}} src={Pic} alt="" /></div>
                 <div>
                     <h6>Hi! Reader,</h6>
                     <p>Here's your News!</p>
