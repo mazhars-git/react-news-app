@@ -4,6 +4,7 @@ import { faAlignLeft, faCoffee, faList, faListAlt } from '@fortawesome/free-soli
 import { faLine } from '@fortawesome/free-brands-svg-icons';
 import Pic from '../../images/profile.jpg';
 import '../Css/Sidebar.css';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
@@ -20,10 +21,9 @@ const Sidebar = () => {
             <div>
                 <h4>View Toggle</h4>
 
-                <div>
-                    <a href="#"><FontAwesomeIcon icon={faAlignLeft} /></a>
-                    <a href="#"><FontAwesomeIcon icon={faList} /></a> 
-                     
+                <div>                    
+                    <Link to="/newsList"><a href="#"><FontAwesomeIcon icon={faAlignLeft} /></a></Link>
+                    <Link to="/news"><a href="#"><FontAwesomeIcon icon={faList} /></a></Link>                     
                 </div>
             </div>
 
