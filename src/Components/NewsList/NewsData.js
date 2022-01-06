@@ -1,9 +1,11 @@
 import React from 'react';
 
-const NewsData = () => {
+const NewsData = (props) => {
+    const {title, body} = props.info;
     return (
-        <div>
-            
+        <div className="col-md-4">
+            <h6>{title}</h6>
+            <p>{body}</p>
         </div>
     );
 };

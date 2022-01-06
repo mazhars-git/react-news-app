@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignLeft, faCoffee, faList, faListAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLine } from '@fortawesome/free-brands-svg-icons';
 import Pic from '../../images/profile.jpg';
+import '../Css/Sidebar.css';
 
 const Sidebar = () => {
     return (

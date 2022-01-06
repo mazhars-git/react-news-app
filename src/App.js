@@ -11,6 +11,7 @@ import {
 import Home from './Components/Home/Home';
 import FeedbackForm from './Components/FeedbackForm/FeedbackForm';
 import AllNews from './Components/AllNews/AllNews';
+import NewsList from './Components/NewsList/NewsList';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/feedback" element={<FeedbackForm />} />
         <Route path="/news" element={<AllNews />} />
+        <Route path="/newsList" element={<NewsList />} />
     </Routes>
   );
 }
