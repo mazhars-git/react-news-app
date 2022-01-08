@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
     return (
         <section className="sidebar">
-            <h4>Sidebar</h4>
             <div className="profile d-flex">
                 <div><img style={{width: '30px', borderRadius: '50%'}} src={Pic} alt="" /></div>
                 <div>

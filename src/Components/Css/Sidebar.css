@@ -15,8 +15,14 @@
 .toggle-area{
     background-color: rgb(168, 172, 175);
 }
+.news-toggle a{
+    margin: 8px;
+    font-size: 40px;
+}
 
 .feedback{
-    
+    background-color: rgb(170, 215, 255);
+    margin: 10px;
+    padding: 15px;
 }
 

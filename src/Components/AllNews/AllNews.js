@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Sidebar from '../Sidebar/Sidebar';
 import News from './News';
 
 const AllNews = () => {
@@ -12,11 +13,20 @@ const AllNews = () => {
 
 
     return (
-        <div className="container">
-            <div className='row'>
-                {
-                news.map(info => <News info={info} key={info.id}></News>)  
-                }
+        <div className="bg">
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-4">
+                        <Sidebar />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="row">
+                            {
+                                news.map(info => <News info={info} key={info.id}></News>)
+                            }
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
