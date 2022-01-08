@@ -28,7 +28,8 @@ const Sidebar = () => {
 
             <div className="feedback">
                 <h4>Have a Feedback?</h4>
-                <button className="btn btn-secondary">We're Listening!</button>
+                <button className="btn btn-secondary">
+                    <Link to="/feedback"> We're Listening!</Link></button>
             </div>
 
 
