@@ -1,4 +1,22 @@
 .sidebar{
-    background-color: rgb(151, 180, 241);
     text-align: center;
+    color: white;
 }
+
+.profile{
+    background-color:rgb(80, 137, 241);
+    
+}
+.profile, .toggle-area{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.toggle-area{
+    background-color: rgb(168, 172, 175);
+}
+
+.feedback{
+    
+}
+

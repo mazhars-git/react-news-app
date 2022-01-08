@@ -18,16 +18,16 @@ const Sidebar = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="toggle-area">
                 <h4>View Toggle</h4>
 
-                <div>                    
+                <div className="news-toggle">                    
                     <Link to="/newsList"><a href="#"><FontAwesomeIcon icon={faAlignLeft} /></a></Link>
                     <Link to="/news"><a href="#"><FontAwesomeIcon icon={faList} /></a></Link>                     
                 </div>
             </div>
 
-            <div>
+            <div className="feedback">
                 <h4>Have a Feedback?</h4>
                 <button className="btn btn-secondary">We're Listening!</button>
             </div>
